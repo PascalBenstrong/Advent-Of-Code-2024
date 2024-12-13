@@ -5,8 +5,6 @@ use std::iter::zip;
 use std::str::FromStr;
 
 fn main() {
-    println!("Hello, world!");
-
     let input_file = std::env::args().nth(1).expect("please supply an input file");
 
     let input_path = std::path::Path::new(&input_file);
